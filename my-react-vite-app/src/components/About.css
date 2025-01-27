@@ -1,0 +1,17 @@
+#kennyman {
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+}
+
+.about-section {
+  display: flex;
+}
+
+#about-img-div {
+  flex: 1;
+}
+
+#about-desc-div {
+  flex: 2;
+}
