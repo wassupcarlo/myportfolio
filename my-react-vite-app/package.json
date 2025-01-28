@@ -1,7 +1,7 @@
 {
   "name": "my-react-vite-app",
   "private": true,
-  "homepage": "https://github.com/wassupcarlo/myportfolio",
+  "homepage": "https://wassupcarlo.github.io/myportfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
