@@ -8,7 +8,7 @@ function Experience() {
             <section className="experience-section">
                 <div id="ria-img-div">
                     <a href="https://www.riamoneytransfer.com/">
-                        <img id="ria-logo" src="src\assets\ria_money_transfer-logo_brandlogos.net_higbl.png"
+                        <img id="ria-logo" src="/ria_money_transfer-logo_brandlogos.net_higbl.png"
                         alt="Ria Money Transfer Logo"></img>
                     </a>
                 </div>
