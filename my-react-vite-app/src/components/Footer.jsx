@@ -7,7 +7,11 @@ function Footer() {
           <a href="https://www.linkedin.com/in/giancarlo-passariello/">
             <img id="social-logo" src="/In-White-128@2x.png"></img>
           </a>
-          <p>2025   Giancarlo Passariello   1.0.2</p>
+          <p>
+            <span>2025</span>
+            <span>Giancarlo Passariello</span>
+            <span>1.0.3</span>
+          </p>
         </footer>
     );
 }
