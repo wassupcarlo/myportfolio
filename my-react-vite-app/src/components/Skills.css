@@ -1,0 +1,12 @@
+.language-framework-logo {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border-radius: 3px;
+}
+
+.language-framework-logo:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  transform: scale(1.05);
+}

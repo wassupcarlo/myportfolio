@@ -1,0 +1,55 @@
+.web-iv-proj-section {
+  text-align: center;
+}
+
+#proj-languages {
+  background-color: rgb(208, 204, 204);
+  border-radius: 15px;
+  margin: 5px;
+  padding: 6px;
+}
+
+.github-button {
+  width: 75px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+h3 {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.outer-section {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.outer-section:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+@media only screen and (max-width: 768px) {
+  .web-iv-proj-section {
+    text-align: center;
+    margin: 0.5em;
+    padding: 0.8em;
+  }
+
+  #proj-languages {
+    font-size: 12px;
+    padding: 1px;
+    margin: 4px;
+  }
+
+  .github-button {
+    width: 60px;
+    height: 20px;
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+}
