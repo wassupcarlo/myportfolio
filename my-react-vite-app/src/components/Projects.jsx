@@ -21,7 +21,9 @@ function Projects() {
                     ))}
                 </p>
                 <p>This project combines data science techniques with social research methodologies to offer a comprehensive understanding of motor vehicle theft patterns in Montreal. By examining the interplay between crime statistics and sociodemographic factors, it aims to contribute valuable insights for policymakers, law enforcement agencies, and community organizations working towards safer and more equitable urban environments.</p>
-                <a href="https://github.com/wassupcarlo/Vehicle-Theft-Crimes-in-Montreal"><img className="github-button" src="src\assets\GitHub_Logo.png" ></img></a>
+                <a href="https://github.com/wassupcarlo/Vehicle-Theft-Crimes-in-Montreal">
+                    <img className="github-button" src="src\assets\GitHub_Logo.png" ></img>
+                </a>
             </section>
             <section className="outer-section">
                 <h3>Medical Application Project</h3>
@@ -34,7 +36,9 @@ function Projects() {
                     ))}
                 </p>
                 <p>This Medical Application enables users to book appointments with doctors and provides a comprehensive platform for managing patient care. Doctors can add and modify patient notes, as well as accept or deny appointment requests. The website incorporates a role-based permission system, granting administrators enhanced control over website settings. Additionally, the project includes a REST API, allowing seamless access to and manipulation of data in JSON format.</p>
-                <a href="https://github.com/wassupcarlo/Medical-Application-Project"><img className="github-button" src="src\assets\GitHub_Logo.png" ></img></a>
+                <a href="https://github.com/wassupcarlo/Medical-Application-Project">
+                    <img className="github-button" src="src\assets\GitHub_Logo.png" ></img>
+                </a>
             </section>
         </section>
     );
