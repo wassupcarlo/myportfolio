@@ -24,6 +24,9 @@ function Projects() {
                 <a href="https://github.com/wassupcarlo/Vehicle-Theft-Crimes-in-Montreal">
                     <img className="github-button" src="src\assets\github-mark.png" ></img>
                 </a>
+                <a href="https://gitlab.com/passariello1/Vehicle-Theft-Crimes-in-Montreal">
+                    <img className="gitlab-button" src="src\assets\gitlab-logo-500.svg"></img>
+                </a>
             </section>
             <section className="outer-section">
                 <h3>Medical Application Project</h3>
