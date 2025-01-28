@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "cd my-react-vite-app && npm run build",
+    "build": "npm run build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
