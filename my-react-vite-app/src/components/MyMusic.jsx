@@ -2,8 +2,8 @@ import React from 'react';
 import './MyMusic.css';
 
 const beats = [
-  { id: 1, title: 'bright lights', collaborators: '@wassupcarlo, @1prod.niko & @brigtaudio_1', audioSrc: 'public\\beats\\bright lights (155bpm) [Prod.Niko x WassupCarlo x Brigtaudio_1].mp3' },
-  { id: 2, title: 'led', collaborators: '@wassupcarlo, @okayypablo & @1prod.niko', audioSrc: 'public\\beats\\led (136bpm) [prod. @1prod.niko x @okayypablo x @wassupcarlo].mp3' },
+  { id: 1, title: 'bright lights', collaborators: '@wassupcarlo, @1prod.niko & @brigtaudio_1', audioSrc: '/beats/bright lights (155bpm) [Prod.Niko x WassupCarlo x Brigtaudio_1].mp3' },
+  { id: 2, title: 'led', collaborators: '@wassupcarlo, @okayypablo & @1prod.niko', audioSrc: '/beats/led (136bpm) [prod. @1prod.niko x @okayypablo x @wassupcarlo].mp3' },
 ];
 
 function AudioPlayer({ title, collaborators, audioSrc }) {

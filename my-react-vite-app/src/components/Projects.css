@@ -3,10 +3,21 @@
 }
 
 #proj-languages {
-  background-color: rgb(208, 204, 204);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
   border-radius: 15px;
   margin: 5px;
   padding: 6px;
+  border: 3.5px solid transparent;
+  background-image: linear-gradient(white, white), 
+    linear-gradient(to right, #88c1c0, #fd9db6);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+#proj-languages:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .github-button, .gitlab-button {
