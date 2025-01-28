@@ -8,7 +8,7 @@ function Projects() {
         'CSS', 'Docker'];
 
     return (
-        <section>
+        <section id="projects-section">
             <h2>Projects</h2>
             <section className="outer-section">
                 <h3>Vehicle Theft Crimes in Montreal</h3>

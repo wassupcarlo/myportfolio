@@ -3,7 +3,7 @@ import './Skills.css';
 
 function Skills() {
     return (
-        <section>
+        <section id="skills-section">
             <h2>Skills</h2>
             <section className="outer-section">
               <img className="language-framework-logo" src="src\assets\LanguageLogos\csharp.svg"></img>

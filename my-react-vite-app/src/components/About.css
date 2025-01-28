@@ -2,10 +2,22 @@
   border-radius: 10px;
   width: 300px;
   height: 400px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#kennyman:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .about-section {
   display: flex;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-section:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 #about-img-div {
