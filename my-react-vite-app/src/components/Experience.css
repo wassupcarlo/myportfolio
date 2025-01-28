@@ -1,0 +1,57 @@
+#ria-logo {
+  border-radius: 15px;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 50px; 
+  margin-left: 60px;
+}
+
+#ria-logo:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#ria-img-div {
+  flex: 1;
+}
+
+#ria-job-desc-div {
+  flex: 2;
+}
+
+.experience-section {
+  display: flex;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-section:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+h3, h4 {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .experience-section {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  #ria-logo {
+    width: 120px;
+    height: 120px;
+    margin: 0;
+  }
+
+  #ria-job-desc-div {
+    text-align: center;
+  }
+
+  h3, h4 {
+    font-size: 1.2em; 
+  }
+}

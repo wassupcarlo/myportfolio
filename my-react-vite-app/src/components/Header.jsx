@@ -9,6 +9,7 @@ function Header() {
                     <li><a href="#about-section">About</a></li>
                     <li><a href="#skills-section">Skills</a></li>
                     <li><a href="#projects-section">Projects</a></li>
+                    <li><a href="#experience-section">Experience</a></li>
                 </ul>
             </nav>
         </header>
