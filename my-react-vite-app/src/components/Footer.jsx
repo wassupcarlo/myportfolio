@@ -8,9 +8,10 @@ function Footer() {
             <img id="social-logo" src="/In-White-128@2x.png"></img>
           </a>
           <p>
-            <span>2025</span>
-            <span>Giancarlo Passariello</span>
-            <span>1.0.3</span>
+            <span>Copyright 2025 &#169; Giancarlo Passariello</span>
+          </p>
+          <p id="version">
+            Version 1.0.3
           </p>
         </footer>
     );
