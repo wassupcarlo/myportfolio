@@ -57,13 +57,18 @@ h3 {
   #proj-languages {
     font-size: 12px;
     padding: 1px;
-    margin: 4px;
+    margin: 6px;
+    border: 1px solid transparent;
   }
 
   .github-button {
-    width: 60px;
-    height: 20px;
-    font-size: 12px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .gitlab-button {
+    width: 30px;
+    height: 30px;
   }
 
   h3 {
