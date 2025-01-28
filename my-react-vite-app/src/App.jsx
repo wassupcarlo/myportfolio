@@ -17,7 +17,7 @@ function App() {
             <Skills />
             <Projects />
             <MyMusic />
-            <Credits />
+            {/* <Credits /> */}
             <Footer />
         </>
     );

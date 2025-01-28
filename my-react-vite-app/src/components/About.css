@@ -27,3 +27,20 @@
 #about-desc-div {
   flex: 2;
 }
+
+@media only screen and (max-width: 768px) {
+  #kennyman {
+    width: 150px;
+    height: 200px;
+  }
+
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #about-img-div, #about-desc-div {
+    flex: 1;
+    margin-bottom: 1em;
+  }
+}
