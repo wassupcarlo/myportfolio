@@ -24,7 +24,7 @@ function Projects() {
                 <a href="https://github.com/wassupcarlo/Vehicle-Theft-Crimes-in-Montreal">
                     <img className="github-button" src="/github-mark.png" ></img>
                 </a>
-                <a href="https://gitlab.com/passariello1/Vehicle-Theft-Crimes-in-Montreal">
+                <a href="https://gitlab.com/giancarlopassariello/Vehicle-Theft-Crimes-in-Montreal">
                     <img className="gitlab-button" src="/gitlab-logo-500.svg"></img>
                 </a>
             </section>
@@ -41,6 +41,9 @@ function Projects() {
                 <p>This Medical Application enables users to book appointments with doctors and provides a comprehensive platform for managing patient care. Doctors can add and modify patient notes, as well as accept or deny appointment requests. The website incorporates a role-based permission system, granting administrators enhanced control over website settings. Additionally, the project includes a REST API, allowing seamless access to and manipulation of data in JSON format.</p>
                 <a href="https://github.com/wassupcarlo/Medical-Application-Project">
                     <img className="github-button" src="/github-mark.png" ></img>
+                </a>
+                <a href="https://gitlab.com/giancarlopassariello/medical-app-project">
+                    <img className="gitlab-button" src="/gitlab-logo-500.svg"></img>
                 </a>
             </section>
         </section>
