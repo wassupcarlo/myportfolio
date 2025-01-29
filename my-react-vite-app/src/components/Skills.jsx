@@ -21,7 +21,7 @@ function Skills() {
               <img className="language-framework-logo" src="LanguageLogos\docker-mark-blue.svg" alt="Docker Logo" title="Docker"></img>
               <img className="language-framework-logo" src="SoftwareLogos\vscode.svg" alt="Visual Studio Code Logo" title="Visual Studio Code"></img>
               <img className="language-framework-logo" src="SoftwareLogos\Android_Studio_Logo_2024.png" alt="Android Studio Logo" title="Android Studio"></img>
-              <img className="language-framework-logo" src="SoftwareLogos\Visual_Studio_Icon_2022.svg" alt="Visual Studio Logo" title="Visual Studio"></img>
+              <img className="language-framework-logo" src="SoftwareLogos\Visual_Studio_Icon_2022.png" alt="Visual Studio Logo" title="Visual Studio"></img>
               <img className="language-framework-logo" src="SoftwareLogos\FLStudio20_MasterIcon.png" alt="FL Studio Logo" title="FL Studio"></img>
             </section>
         </section>
