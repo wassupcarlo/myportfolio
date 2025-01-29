@@ -11,7 +11,7 @@ function Footer() {
             <span>Copyright 2025 &#169; Giancarlo Passariello</span>
           </p>
           <p id="version">
-            Version 1.0.6
+            Version 1.0.7
           </p>
         </footer>
     );
