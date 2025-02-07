@@ -6,6 +6,7 @@ function Projects() {
         'Mocha', 'Chai', 'SuperTest', 'MongoDB', 'Express.js'];
     const medappLanguages = ['Python', 'Flask', 'Jinja', 'SQL', 'REST', 'HTML', 
         'CSS', 'Docker'];
+    const nocapocucinaLanguages = ['C#', 'Entity Framework'];
 
     return (
         <section id="projects-section">
@@ -46,6 +47,24 @@ function Projects() {
                     <img className="gitlab-button" src="/gitlab-logo-500.svg"></img>
                 </a>
             </section>
+            {/* <section className="outer-section">
+                <h3>NoCapoCucina</h3>
+                <p>
+                    {nocapocucinaLanguages.map((language, index) => (
+                        <span id="proj-languages" key={index}>
+                            {language}
+                            {index < nocapocucinaLanguages.length - 1 ? '    ' : ''}
+                        </span>
+                    ))}
+                </p>
+                <p></p>
+                <a href="https://github.com/wassupcarlo/NoCapoCucina">
+                    <img className="github-button" src="/github-mark.png" ></img>
+                </a>
+                <a href="https://gitlab.com/giancarlopassariello/no-capo-cucina">
+                    <img className="gitlab-button" src="/gitlab-logo-500.svg"></img>
+                </a>
+            </section> */}
         </section>
     );
 }

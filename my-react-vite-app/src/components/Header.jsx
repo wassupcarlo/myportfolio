@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Header() {
+function Header({ darkMode, toggleDarkMode }) {
     return (
         <header>
             <h1>Giancarlo Passariello</h1>
@@ -12,6 +12,14 @@ function Header() {
                     <li><a href="#experience-section">Experience</a></li>
                 </ul>
             </nav>
+            <div className="dark-mode-container">
+                <span>🌞</span>
+                <label className="switch">
+                    <input type="checkbox" checked={darkMode} onChange={toggleDarkMode} />
+                    <span className="slider round"></span>
+                </label>
+                <span>🌙</span>
+            </div>
         </header>
     );
 }
